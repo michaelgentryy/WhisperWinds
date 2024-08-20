@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "whisperwinds",
+	"version": "1.20.2",
+	"name": "WhisperWinds",
+	"description": "In development",
+	"authors": [
+		"xSphyxia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/whisperwinds/whisperwinds_icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.xsphyxia.whisperwinds.WhisperWinds"
+		],
+		"client": [
+			"org.xsphyxia.whisperwinds.WhisperWindsClient"
+		],
+		"fabric-datagen": [
+			"org.xsphyxia.whisperwinds.WhisperWindsDataGenerator"
+		]
+	},
+	"mixins": [
+		"whisperwinds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
