@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "whisperwinds:item/dark_green_runestone"
+  }
+}
